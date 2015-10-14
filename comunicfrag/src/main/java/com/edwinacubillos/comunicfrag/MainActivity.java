@@ -20,10 +20,20 @@ public class MainActivity extends AppCompatActivity implements comunicador{
     }
 
     @Override
-    public void envioDatos(String name, String LastName) {
+    public void envioDatos(String name, String lastname) {
 
         Bundle args = new Bundle();
         args.putString("name", name);
+        args.putString("lastname",lastname);
+
+        ReceptorFragment receptorFragment = new ReceptorFragment();
+        receptorFragment.setArguments(args);
+
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        fragmentTransaction.replace(android.R.id.content, receptorFragment).commit();
+
 
     }
 }
