@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ComunicFrag</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo">Formulario</string>
+    <string name="titulo2">Datos Recibidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="hnombre">Digite Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="hapellido">Digite Apellido</string>
+    <string name="enviar">Enviar</string>
+
+
+
+
+</resources>
